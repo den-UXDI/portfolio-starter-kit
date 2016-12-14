@@ -118,7 +118,9 @@ There's a few things to keep in mind as you progress through this proccess:
 
 4. Don't change settings you don't understand in your hosting account. These will vary by hosting type, but in general, **if you don't know what it is, don't change it.**
 
+## Questions?
 
+Feel free to submit issues to this repo if you have any unanswered questions - just also slack me to notify me of them as well.
 
 
 
