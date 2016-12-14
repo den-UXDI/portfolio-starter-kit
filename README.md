@@ -48,6 +48,8 @@ Many services like Dreamhost will sell you a domain name as part of your hosting
 
 ### Top Level Domains
 
+![URL anatomy](http://www.masterworks.com/site/wp-content/uploads/2014/05/top-level-domain.jpg)
+
 Your website can end with a lot more than .com - here's a complete rundown:
 
 - .com - standard, totally fine
@@ -73,6 +75,8 @@ While we've learned a lot of fancy tools to make full-stack sites, you probably 
 
 ### Bootstrap Templates
 
+![Bootstrap templates](https://startbootstrap.com/img/templates/freelancer.jpg)
+
 Using a template for your personal site is generally a bad idea - but since you've had only minimal design training, and will have very little time to devote attention to your webitse pre-grad, this is probably going to be neccessary. Given the choice between a poorly-designed site you made yourself, and a great site you used a template for, employers would rather see the later. The work INSIDE your portfolio will speak to your skill as a developer.
 
 Here's some good places to find Bootstrap templates:
@@ -84,6 +88,8 @@ Here's some good places to find Bootstrap templates:
 Make sure that you test the template you pick on multiple screen sizes and browsers. Dig in and learn what they're leveraging with Bootstrap, and how. This can help you replicate the same functionality when you create your own from sites scratch.
 
 ## Deploying your Site
+
+![Deploybot](https://deploybot.com/images/deploybot-logo@2x.png)
 
 Your hosting company should provide you with a list of ways to deploy your site to the live hosting environment. A common method is FTP, in which you upload your files through an FTP client like [CyberDuck](https://cyberduck.io/). The obvious downside of this is that there is no built-in version control - this is why you'll want to work on a github repo regardless of how static your site is, then dump your files on the FTP server after you commit/push.
 
