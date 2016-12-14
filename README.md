@@ -89,8 +89,6 @@ Make sure that you test the template you pick on multiple screen sizes and brows
 
 ## Deploying your Site
 
-![Deploybot](https://deploybot.com/images/deploybot-logo@2x.png)
-
 Your hosting company should provide you with a list of ways to deploy your site to the live hosting environment. A common method is FTP, in which you upload your files through an FTP client like [CyberDuck](https://cyberduck.io/). The obvious downside of this is that there is no built-in version control - this is why you'll want to work on a github repo regardless of how static your site is, then dump your files on the FTP server after you commit/push.
 
 Another option is some kind of middleware that deploys from your repo for you. [DeployBot](https://deploybot.com/), for example, hooks into both your Github and Hosting account, and pushes from Githubt to your host when you tell it to. 
