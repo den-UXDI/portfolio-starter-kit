@@ -38,6 +38,8 @@ Hosting, in a nutshell, is renting a folder on a server for your project to live
 
 - Never use GoDaddy. Never use GoDaddy.
 
+Each hosting service will have its own way of handling how your files are stored and updated. You'll need to read their documentation to understand how that works.
+
 ## Domain Names (DNS)
 
 Domain names are NOT technically part of your hosting package. Once your website has its metaphorical appartment, it can only be reached by an IP number. For instance, to get to Google without using its Domain name, you can go to 8.8.8.8.
@@ -55,6 +57,19 @@ Your website can end with a lot more than .com - here's a complete rundown:
 - .___ (new top level domains): http://data.iana.org/TLD/tlds-alpha-by-domain.txt - great if relevant
 
 - .net, .biz - NEVER.
+
+## Site Architecture
+
+While we've learned a lot of fancy tools to make full-stack sites, you probably won't need any of that in order to make a great portfolio site. My suggestion for your portfolio is:
+
+- root
+	- index.html 
+	- css
+		- bootstrap.css
+		- main.css
+	- js
+		- main.js
+
 
 
 
