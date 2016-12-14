@@ -60,7 +60,7 @@ Your website can end with a lot more than .com - here's a complete rundown:
 
 ## Site Architecture
 
-While we've learned a lot of fancy tools to make full-stack sites, you probably won't need any of that in order to make a great portfolio site. My suggestion for your portfolio is:
+While we've learned a lot of fancy tools to make full-stack sites, you probably won't need any of that in order to make a great portfolio site. My suggestion for your portfolio is to make a simple, static, purely frontend site using HTML, CSS, minimal JS, and probably Bootstrap. Your entire site architecture might look something like this:
 
 - root
 	- index.html 
@@ -71,8 +71,23 @@ While we've learned a lot of fancy tools to make full-stack sites, you probably 
 		- main.js
 
 
+### Bootstrap Templates
 
+Using a template for your personal site is generally a bad idea - but since you've had only minimal design training, and will have very little time to devote attention to your webitse pre-grad, this is probably going to be neccessary. Given the choice between a poorly-designed site you made yourself, and a great site you used a template for, employers would rather see the later. The work INSIDE your portfolio will speak to your skill as a developer.
 
+Here's some good places to find Bootstrap templates:
+
+- [Start Bootstrap](https://startbootstrap.com/)
+- [Shape Bootstrap](https://shapebootstrap.net/free-templates)
+- [Wrap Bootstrap(not free)](https://wrapbootstrap.com/?ref=bsw)
+
+Make sure that you test the template you pick on multiple screen sizes and browsers. Dig in and learn what they're leveraging with Bootstrap, and how. This can help you replicate the same functionality when you create your own from scratch.
+
+## Deploying your Site
+
+Your hosting company should provide you with a list of ways to deploy your site to the live hosting environment. A common method is FTP, in which you upload your files through an FTP client like [CyberDuck](https://cyberduck.io/). The obvious downside of this is that there is no version control. This is why you'll want to work on a github repo regardless of how static your site is.
+
+Another option is some kind of middleware that deploys from your repo for you. [DeployBot](https://deploybot.com/), for example, hooks into your Github account and your hosting account, and push from Githubt to your host when you tell it to. 
 
 
 
