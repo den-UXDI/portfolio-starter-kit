@@ -81,13 +81,15 @@ Here's some good places to find Bootstrap templates:
 - [Shape Bootstrap](https://shapebootstrap.net/free-templates)
 - [Wrap Bootstrap(not free)](https://wrapbootstrap.com/?ref=bsw)
 
-Make sure that you test the template you pick on multiple screen sizes and browsers. Dig in and learn what they're leveraging with Bootstrap, and how. This can help you replicate the same functionality when you create your own from scratch.
+Make sure that you test the template you pick on multiple screen sizes and browsers. Dig in and learn what they're leveraging with Bootstrap, and how. This can help you replicate the same functionality when you create your own from sites scratch.
 
 ## Deploying your Site
 
-Your hosting company should provide you with a list of ways to deploy your site to the live hosting environment. A common method is FTP, in which you upload your files through an FTP client like [CyberDuck](https://cyberduck.io/). The obvious downside of this is that there is no version control. This is why you'll want to work on a github repo regardless of how static your site is.
+Your hosting company should provide you with a list of ways to deploy your site to the live hosting environment. A common method is FTP, in which you upload your files through an FTP client like [CyberDuck](https://cyberduck.io/). The obvious downside of this is that there is no built-in version control - this is why you'll want to work on a github repo regardless of how static your site is, then dump your files on the FTP server after you commit/push.
 
-Another option is some kind of middleware that deploys from your repo for you. [DeployBot](https://deploybot.com/), for example, hooks into your Github account and your hosting account, and push from Githubt to your host when you tell it to. 
+Another option is some kind of middleware that deploys from your repo for you. [DeployBot](https://deploybot.com/), for example, hooks into both your Github and Hosting account, and pushes from Githubt to your host when you tell it to. 
+
+
 
 
 
