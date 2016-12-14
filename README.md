@@ -8,7 +8,7 @@
 
 ## Repo
 
-First thing's first - create a new repo for your project. Initialize it with a readme and an index.html file that gives a simple 'hello world':
+First thing's first - create a new repo for your project. FROM SCATCH - don't fork this repo. Initialize it with a readme and an index.html file that gives a simple 'hello world':
 
 ```html
 	<!DOCTYPE html>
@@ -88,6 +88,27 @@ Make sure that you test the template you pick on multiple screen sizes and brows
 Your hosting company should provide you with a list of ways to deploy your site to the live hosting environment. A common method is FTP, in which you upload your files through an FTP client like [CyberDuck](https://cyberduck.io/). The obvious downside of this is that there is no built-in version control - this is why you'll want to work on a github repo regardless of how static your site is, then dump your files on the FTP server after you commit/push.
 
 Another option is some kind of middleware that deploys from your repo for you. [DeployBot](https://deploybot.com/), for example, hooks into both your Github and Hosting account, and pushes from Githubt to your host when you tell it to. 
+
+## Mail Servers
+
+Most hosting services also offer mail through your DNS - i.e., Nick@NickAnderson.Rocks. Using those mail services are up to you. While *in theory* they should be easy to configure and set up, even a small error in setup can cause days of headaches and lost mail. Be sure to read your documentation to determine how easy this will be to set up, how you'll be able to access this mail, and if it costs extra. There is an entire week's worth of classes we could teach on configuring mail servers, so be prepared to read a lot of documentation and Google a lot questions if you go this route. 
+
+![Make sure you understand mail servers before you use them](http://www.frontpagemag.com/sites/default/files/styles/article_full/public/uploads/2016/01/hillary_clinton3_3.jpg?itok=GajKWux_)
+*Protip - make sure you understand mail servers before you use them*
+
+It's perfectly normal to have a generic gmail address not associated with your website as your main poit of contact. That being said, the effect of a personalized email address on your DNS conveys an even more polished and professional presentation. My suggestion would be to try to set up an email server through your DNS, but don't get it printed on business cards until you are absolutely sure it is functional and usable. 
+
+## Common Issues and Testing
+
+There's a few things to keep in mind as you progress through this proccess:
+
+1. It will take a while for your hosting/DNS to propagate - sometimes up to 48 hours. Do not be alarmed if you cannot reach your website (either through your browser or FTP) for a couple days after purchasing it.
+
+2. Furthermore, changes made to your hosting environment will sometimes take a few minutes to take affect. Be sure to check caching settings in your hosting service - if your site is being cached, you will not see changes until you hard-refresh or delete your cookies.
+
+3. Don't delete anything in your hosting directory just cause you don't know what it is. Read your hosting documentation and see what it says about any mysterious files or directories you encounter.
+
+4. Don't change 
 
 
 
