@@ -36,7 +36,7 @@ Purchasing hosting is, in a nutshell, the equivalent of renting a folder on a se
 - [Amazon Web Services](https://aws.amazon.com/) - Cheap and scalable - only pay for what you use (could be as low as $1-3/mo). No frills. 
 - [Heroku](https://heroku.com/) Cloud app hosting - Probably overkill for what you need, but good if you want to scale to hosting full apps. Price tiers based on usage, from free to $500/mo.
 
-- Never use GoDaddy. Never use GoDaddy.
+- Never use GoDaddy. _Never use GoDaddy_.
 
 Each hosting service will have its own way of handling how your files are stored and updated. You'll need to read their documentation to understand how that works.
 
@@ -48,7 +48,7 @@ Many services like Dreamhost will sell you a domain name as part of your hosting
 
 ### Top Level Domains
 
-![URL anatomy](http://www.masterworks.com/site/wp-content/uploads/2014/05/top-level-domain.jpg)
+![URL anatomy](http://eloquence.co.nz/wp-content/uploads/2013/07/URL-anatomy.jpg)
 
 Your website can end with a lot more than .com - here's a complete rundown:
 
@@ -91,7 +91,7 @@ Here's some good places to find Bootstrap templates:
 
 ## Deploying your Site
 
-Your hosting company should provide you with a list of ways to deploy your site to the live hosting environment. A common method is FTP, in which you upload your files through an FTP client like [CyberDuck](https://cyberduck.io/). The obvious downside of this is that there is no built-in version control - this is why you'll want to work on a github repo regardless of how static your site is, then dump your files on the FTP server after you commit/push.
+Your hosting company should provide you with a list of ways to deploy your site to the live hosting environment. A common method is FTP, in which you upload your files through an FTP client like [FileZilla](https://filezilla-project.org/) or [CyberDuck](https://cyberduck.io/). The obvious downside of this is that there is no built-in version control - this is why you'll want to work on a github repo regardless of how static your site is, then dump your files on the FTP server after you commit/push.
 
 Another option is some kind of middleware that deploys from your repo for you. [DeployBot](https://deploybot.com/), for example, hooks into both your Github and Hosting account, and pushes from Githubt to your host when you tell it to. 
 
