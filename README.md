@@ -32,6 +32,7 @@ Let's start with the more technical side of this project - getting hosting and a
 
 Purchasing hosting is, in a nutshell, the equivalent of renting a folder on a server for your project to live in. Much like renting an apartment, quality and cost can varry wildly. Here's a few suggestions for reliable hosting companies:
 
+-[Github](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) - You already know it, and it's free! You'll have to jump through some hoops to set up it, though - documentation can be found [here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
 - [Dreamhost](https://www.dreamhost.com/) - Standard fair hosting service. around $25/mo. Handles domain, email, and other common services for you. Almost unlimited storage. See also: [Bluehost](https://www.bluehost.com/).
 - [Amazon Web Services](https://aws.amazon.com/) - Cheap and scalable - only pay for what you use (could be as low as $1-3/mo). No frills. 
 - [Heroku](https://heroku.com/) Cloud app hosting - Probably overkill for what you need, but good if you want to scale to hosting full apps. Price tiers based on usage, from free to $500/mo.
