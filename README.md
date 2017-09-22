@@ -88,10 +88,11 @@ On the other hand, it's perfectly normal to have a generic gmail address not ass
 - Start with the Result - much like a pull-quote from an article, people like to hear a quick summary of what they’re about to read before going in.
 
 ### Case Studies: Good Examples
--[Jeya Karthika - PitchMojo](http://jeya.io/)
--[Pawel - GPortal](http://www.projectscope.eu/gportal-case-study)
--[Simon Pan - Uber](http://simonpan.com/work/uber/)
--[BlueModus - 42Below](https://www.bluemodus.com/work/case-studies/42below)
+
+- [Jeya Karthika - PitchMojo](http://jeya.io/)
+- [Pawel - GPortal](http://www.projectscope.eu/gportal-case-study)
+- [Simon Pan - Uber](http://simonpan.com/work/uber/)
+- [BlueModus - 42Below](https://www.bluemodus.com/work/case-studies/42below)
 
 ## Questions?
 
