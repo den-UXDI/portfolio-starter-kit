@@ -6,7 +6,7 @@
 - Get a custom domain name for our website
 - Make some Case Studies to show off our work
 
-## What is a Portfolio?
+## What is the Portfolio?
 
 This isn't a stupid question - while most people know they _need_ a portfolio website, they don't know exactly what should be in it. This is evident by the hundreds of [bad](http://eighty-twenty.net/) [portfolio sites](http://theworstportfolioever.com/) you'll find floating around.
 
